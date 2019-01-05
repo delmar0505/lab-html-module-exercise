@@ -1,0 +1,294 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: arial;
+  font-style: normal;
+  font-weight: 400;
+}
+.col{
+  float: left;
+}
+.green{
+  background-color: lightgreen;
+}
+.clearfix{
+  clear:both;
+}
+/* nav bar */
+.navBar{
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 25px;
+}
+.navBar a{
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+/* .top-left{
+  
+} */
+.heart{
+  color: black;
+  text-decoration: none;
+  float: left; 
+  margin: auto 15px;
+}
+.acronym{
+ float: left; 
+}
+.top-links{
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  list-style-type: none; 
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* header */
+#header{
+  background-color:rgb(32, 101, 136);
+  background-image: url("file:///C:/Users/Sally/Desktop/primera%20pagina%20web/lab-html-module-exercise-master/starter-code/images/city-scape.svg");
+  height: 610px;
+}
+
+.searchBar{
+  /* background-color: lightgrey; */
+  height: 50px;
+}
+.batHeader{
+  width: 0 auto;
+  margin: 70px 700px 200px 200px;
+  color: white;
+}
+.batHeader h1{
+  font-size: 50px;
+}
+.batHeader p{
+  font-size: 25px;
+  margin: 15px;
+}
+.npmLogo{
+  width:60px;
+  height:35px;
+  margin: 5px;
+  float: left;
+}
+
+/* search bar */
+.search{
+  background-color: rgb(31, 82, 111);
+  float: left;
+  color: white;
+  height: 30px;
+  width: 800px;
+  margin: 5px 0px 5px 5px;
+  border-radius: 5px;
+  border-style: none;
+  
+}
+.searchForm{
+  display: inline-block;
+}
+.redButton{
+  background-color: #cb3837;
+  color:white;
+  height: 30px;
+  width: 90px;
+  margin: 5px;
+  border-style: none;
+}
+.logIn{
+  color: white;
+}
+.logIn a{
+  display: inline-block;
+  color: white;
+  
+  text-decoration: none;
+}
+.signUp{
+  background-color: rgb(240, 146, 51);
+  border-radius: 12px;
+  border-style: none;
+  height: 50px;
+  width: 250px;
+  list-style-type: none; 
+}
+.signUp a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+.bearLogo{
+  width:50px;
+  height:35px;
+  margin: 5px 5px 5px 0;
+  float: right;
+}
+/* section 1 */
+#section1{
+  background-color: rgb(39, 53, 71);
+  color: white;
+  height: 690px;
+}
+#section1 a{
+  color:white;
+ 
+}
+.collaboration{
+  float: left;
+  margin-top: 170px;
+  margin-left: 150px;
+}
+.sec1content{
+  display: inline-block;
+  /* background-color: #C12127; */
+  width: 500px;
+  margin-top: 150px;
+  margin-right: 20px;
+  margin-left: 15px; 
+  padding-left: 30px; 
+}
+.sec1content h2{
+  font-size: 30px; 
+}
+
+.sec1content li{
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.signOrgs{
+  background-color: rgb(203, 56, 55);
+  text-decoration: none;
+  border-radius: 12px;
+  height: 40px;
+  width: 250px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-style: none;
+ 
+}
+.learnMore{
+  text-decoration: none;
+}
+
+/* section 2 */
+#section2{
+  background: url(file:///C:/Users/Sally/Desktop/primera%20pagina%20web/npm/imagess/forklift.svg);
+  background-size: cover;
+  position: relative;
+  height: 500px;
+}
+.sec2content{
+  /* background-color: #C12127; */
+  display: inline-block;
+  height: 200px;
+  width: 450px;
+  margin:  150px 100px 10px 100px;
+  padding-top: 20px;
+  color: white;
+}
+.sec2content h2{
+  font-size: 35px;
+  padding: 20px;
+}
+.sec2content a{
+  color: white;
+  text-decoration: none;
+}
+.sec2content button{
+  background-color: rgb(49, 68, 88);
+  border-radius: 12px;
+  border-style: none;
+  height: 40px;
+  width: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+
+
+/* section 3 */
+#section3{
+  text-align: center;
+  height: 600px;
+}
+#section3 h2{
+  color: rgb(83, 88, 98);
+  padding-top: 50px;
+  font-size: 35px;
+}
+#section3 p{
+  color: rgb(135, 145, 156);
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+#section3 img{
+  width:95px;
+}
+.blue{
+  background-color: lightblue;
+}
+.secFind{
+  color:rgb(208, 74, 73);
+  text-decoration: none;
+}
+/* .find{
+  height: 250px;
+  width: 320px;
+  display: inline-block;
+} */
+/* .discover{
+  height: 250px;
+  width: 320px;
+  display: inline-block;
+}
+.build{
+  height: 250px;
+  width: 320px;
+  display: inline-block;
+} */
+/* .outer-div{
+  margin-right: 30px;
+  margin-left: 30px;
+} */
+.aja{ 
+  padding: 0 110px;
+  width: auto;
+  height: auto;
+}
+.stuff{
+  height: 250px;
+  width: 33%;
+  float: left;
+}
+.stuff h3{
+  padding-top: 20px;
+  
+}
+
+
+
+
+
+/* font-size: 20px;
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #eee;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 #eee;
+  margin: 50px 5% 0 5%;
+  padding: 20px;
+  width: 40%; */
