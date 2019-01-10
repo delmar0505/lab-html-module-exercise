@@ -54,7 +54,7 @@ body{
 /* header */
 #header{
   background-color:rgb(32, 101, 136);
-  background-image: url("file:///C:/Users/Sally/Desktop/primera%20pagina%20web/lab-html-module-exercise-master/starter-code/images/city-scape.svg");
+  background-image: url("images/city-scape.svg");
   height: 610px;
 }
 
@@ -182,7 +182,7 @@ body{
 
 /* section 2 */
 #section2{
-  background: url(file:///C:/Users/Sally/Desktop/primera%20pagina%20web/npm/imagess/forklift.svg);
+  background: url("images/forklift.svg");
   background-size: cover;
   position: relative;
   height: 500px;
